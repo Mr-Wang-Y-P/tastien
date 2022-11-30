@@ -1,0 +1,13 @@
+/* pages/didi/didi.wxss */
+.didi_menus {
+  height: 400rpx;
+}
+.higher_menus {
+  height: 800rpx;
+}
+.didi_menus .first_item{
+  background-color: green;
+}
+.didi_menus .last_item{
+  background-color: yellow;
+}
