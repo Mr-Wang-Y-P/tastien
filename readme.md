@@ -94,6 +94,12 @@
       ]
     }
     ]
+  - 奶茶小程序的门店选择页
+    1. LBS Location Base Service
+      高德 LBS 技术
+      美团
+    2. wx.getLocation
+      lat long
 - css的技巧
   1. 选择器优先级
     p.md2  11
@@ -111,4 +117,16 @@
     Block 开始  rx_tab  新的组件
     Element  内部元素的申明  rx_tab__item
     Modifier rx_tab__item-on
-- 
+  4. 运用常规CSS 命名套路
+    - BEM 开启一个新的功能区域
+    - .wx._btn .wx_btn-primary
+    - .page>.page__hd+.page__bd+.page__ft
+      .cell>.cell__hd+cell__bd+cell__ft
+    - __ Element 只做一级,用简单单词 不重复
+  5. 小程序不允许在wxss里面background :url(本地图片)
+    - 小程序之所以小，不要做太多事情 产品定位
+    - 包的大小要小于2M
+    - base64 格式 图片格式
+    乱码一样，Google 图片格式 更小
+    - background
+ 
