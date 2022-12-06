@@ -30,3 +30,27 @@
   flex: 1;
   /* background-color: yellow; */
 }
+.menu-wrapper scroll-view {
+  height: 100%;
+}
+.menu-item{
+  position: relative;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+}
+.menu-item.active{
+  color: #f01414;
+}
+scroll-view{
+  height: 100%;
+}
+.menu-item:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(0,0,0,0.1);
+}

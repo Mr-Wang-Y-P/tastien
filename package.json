@@ -1,0 +1,23 @@
+{
+  "name": "tastien",
+  "version": "1.0.0",
+  "description": "- 本项目归塔斯汀所有， 只做学习所用， 请尊重原厂版权",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-Wang-Y-P/tastien.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr-Wang-Y-P/tastien/issues"
+  },
+  "homepage": "https://github.com/Mr-Wang-Y-P/tastien#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.10.8"
+  }
+}

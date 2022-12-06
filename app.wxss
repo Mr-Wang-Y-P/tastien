@@ -31,7 +31,7 @@
   border  盒子模型
 */
 .rx_tab__item:before {
-  content: '我';
+  content: '';
   content: '';
   position:absolute;
   top: 20rpx;

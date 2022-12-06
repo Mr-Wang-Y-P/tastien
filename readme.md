@@ -129,4 +129,18 @@
     - base64 格式 图片格式
     乱码一样，Google 图片格式 更小
     - background
- 
+  6. 视频播放列表页逻辑
+    - 得有远程可播放视频
+    - 视频有poster 封面
+    - 显示和点击的是图片
+    - currentVid 逻辑切换
+      dataset.vid
+        image currentVid !== vid
+        video currenTVid === vid
+
+
+- 中大型应用  建议采用框架
+  有赞 vant
+  1. 将我们的小程序 变成node 项目
+  npm init -y package.json
+  2. npm i @vant/weapp -S --production
